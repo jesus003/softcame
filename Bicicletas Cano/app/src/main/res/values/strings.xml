@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Bicicletas Cano</string>
+    <string name="title_activity_inicio">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="preference_file_key">softcame123</string>
 </resources>
