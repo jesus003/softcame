@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "506230120226",
+    "firebase_url": "https://biciletascano.firebaseio.com",
+    "project_id": "biciletascano",
+    "storage_bucket": "biciletascano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506230120226:android:a5d49c22ff877647",
+        "android_client_info": {
+          "package_name": "com.softsolutions.jesusontiveros.bicicletascano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506230120226-g1er6n6bhgkgb65miabubq7qe9689vnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softsolutions.jesusontiveros.bicicletascano",
+            "certificate_hash": "fe68727e024b7c5be701453312b8fe0aa9f12ac1"
+          }
+        },
+        {
+          "client_id": "506230120226-dk5n2p0ieo3l1hbnuqd3sban6apmrhuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgGRcYQxMqIWeFcVfSW6fdN8rWbwWnO-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506230120226-dk5n2p0ieo3l1hbnuqd3sban6apmrhuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506230120226:android:992852289a829754",
+        "android_client_info": {
+          "package_name": "com.softsolutions.jesusontiveros.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506230120226-dk5n2p0ieo3l1hbnuqd3sban6apmrhuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgGRcYQxMqIWeFcVfSW6fdN8rWbwWnO-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
