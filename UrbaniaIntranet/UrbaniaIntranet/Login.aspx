@@ -42,11 +42,7 @@
     <div class="row">
         <div class="col-md-6">
            
-            <h3><center><b><br />Usuario:</b></center></h3>
-            <center><asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox></center>
-            <h3><center><b><br />Contraseña:</b></center></h3>
-            <center><asp:TextBox ID="txtPass" CssClass="" runat="server"></asp:TextBox></center><br />
-            <center><asp:Button ID="btnLogin" runat="server" Text="Iniciar Sesion" /></center>
+            <asp:Login ID="Login1" runat="server" DestinationPageUrl="~/Default.aspx" OnLoggedIn="Login1_LoggedIn"></asp:Login>
             
              
         </div>

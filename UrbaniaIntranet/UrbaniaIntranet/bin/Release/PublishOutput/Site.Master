@@ -19,6 +19,59 @@
     <link rel="stylesheet" href="/Content/main.css" />
     <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				
+				
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:500px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
 
 </head>
 <body>
@@ -59,10 +112,22 @@
                 </div>
                 <div class="navbar-collapse collapse navbar-right">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a runat="server" href="~/"><b>Inicio</b></a></li>
-                        <li><a runat="server" href="~/About"><b>Acerca de</b></a></li>
-                        <li><a runat="server" href="~/Contact"><b>Contacto</b></a></li>
-                        <li><a runat="server" href="~/Login"><b>Login</b></a></li>
+                        <li><a runat="server" href="~/">Inicio</a></li>
+                         <li runat="server" id="mMembership"><a>Membership</a>
+						<ul>
+							<li><a href="Usuarios/AgregarUsuario.aspx">Crear Usuario</a></li>
+						</ul>
+					    </li>
+                        <li><a runat="server" href="~/About">Acerca de</a></li>
+                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                        <li runat="server" id="mReportes"><a>Reportes</a>
+						<ul>
+							<li><a href="Reportes/infPropiedad.aspx">Inf. Propiedad</a></li>
+                            <li><a href="Reportes/RepEstatus.aspx">Estatus Propiedad</a></li>
+						</ul>
+					    </li>
+                        <li><a runat="server" href="~/Login"><asp:LoginStatus ID="LoginStatus1" runat="server" OnLoggingOut="LoginStatus1_LoggingOut" />
+                        </a></li>
                     </ul>
                 </div>
             </div>
